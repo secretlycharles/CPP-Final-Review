@@ -49,7 +49,10 @@ int main() {
             break;
         case 69:
             cout << "A is equal to 69" << endl;
-            break; // this is required otherwise we'll be dropping until we hit a break, useful if multiple cases support similar code
+            //break; this is required otherwise we'll be dropping until we hit a break, useful if multiple cases support similar code
+        case 70:
+            cout << "Since we didn't have a break inside of 69, we fell threw here and broke out of the switch" << endl;
+            break;
         default:
             cout << "No condition met here for A" << endl;
             break;
