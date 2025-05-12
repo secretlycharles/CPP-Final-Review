@@ -2,11 +2,14 @@
 
 using namespace std;
 
+// Create Class
 class Rectangle {
+    // Define private fields
     private:
         double width;
         double length;
 
+    // Impelment constructor and methods
     public:
         Rectangle(double w, double l) {
             width = w;
